@@ -1,0 +1,1 @@
+/usr/bin/c++      -O3 -g -pipe -flto CMakeFiles/cli.dir/src/examples/cli.cpp.o  -o bin/cli -rdynamic lib/libnetlib.a -lpthread lib/libssl.a lib/libcrypto.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc     -O3 -g -pipe -flto CMakeFiles/aeadtest.dir/aeadtest.c.o  -o ../../../../bin/aeadtest -rdynamic ../../../../lib/libtls.a ../../../../lib/libssl.a ../../../../lib/libcrypto.a -lrt 

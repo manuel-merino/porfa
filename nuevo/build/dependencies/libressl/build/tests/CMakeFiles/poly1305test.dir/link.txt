@@ -1,0 +1,1 @@
+/usr/bin/cc     -O3 -g -pipe -flto CMakeFiles/poly1305test.dir/poly1305test.c.o  -o ../../../../bin/poly1305test -rdynamic ../../../../lib/libtls.a ../../../../lib/libssl.a ../../../../lib/libcrypto.a -lrt 

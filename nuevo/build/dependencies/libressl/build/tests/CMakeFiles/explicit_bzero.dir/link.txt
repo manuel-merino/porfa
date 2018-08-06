@@ -1,0 +1,1 @@
+/usr/bin/cc     -O3 -g -pipe -flto CMakeFiles/explicit_bzero.dir/explicit_bzero.c.o  -o ../../../../bin/explicit_bzero -rdynamic ../../../../lib/libtls.a ../../../../lib/libssl.a ../../../../lib/libcrypto.a -lrt 

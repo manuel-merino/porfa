@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -O3 -g -pipe -flto -shared -Wl,-soname,libnetlib.so -o lib/libnetlib.so CMakeFiles/netlib_obj.dir/src/netlib_inline.c.o CMakeFiles/netlib_obj.dir/src/netlib.c.o CMakeFiles/netlib_obj.dir/src/netlibpp.cpp.o -lpthread lib/libssl.so.43.2.0 lib/libcrypto.so.41.1.0 -Wl,-rpath,/home/a/NAUDIT/pruebas/dependencies/netlib/build/lib 

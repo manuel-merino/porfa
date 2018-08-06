@@ -1,0 +1,1 @@
+/usr/bin/cc     -O3 -g -pipe -flto CMakeFiles/arc4randomforktest.dir/arc4randomforktest.c.o  -o ../../../../bin/arc4randomforktest -rdynamic ../../../../lib/libtls.a ../../../../lib/libssl.a ../../../../lib/libcrypto.a -lrt 

@@ -1,0 +1,1 @@
+/usr/bin/cc     -O3 -g -pipe -flto CMakeFiles/sha512test.dir/sha512test.c.o  -o ../../../../bin/sha512test -rdynamic ../../../../lib/libtls.a ../../../../lib/libssl.a ../../../../lib/libcrypto.a -lrt 

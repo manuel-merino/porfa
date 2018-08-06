@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libnetlib.a  CMakeFiles/netlib_obj.dir/src/netlib_inline.c.o CMakeFiles/netlib_obj.dir/src/netlib.c.o CMakeFiles/netlib_obj.dir/src/netlibpp.cpp.o
+/usr/bin/ranlib lib/libnetlib.a

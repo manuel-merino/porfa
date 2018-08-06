@@ -1,0 +1,276 @@
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5e54/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a5e54.dir/build.make CMakeFiles/cmTC_a5e54.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5e54.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=reallocarray -fPIE   -o CMakeFiles/cmTC_a5e54.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5e54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5e54.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=reallocarray    CMakeFiles/cmTC_a5e54.dir/CheckFunctionExists.c.o  -o cmTC_a5e54 -rdynamic 
+CMakeFiles/cmTC_a5e54.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `reallocarray' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a5e54.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_a5e54'
+make[2]: *** [cmTC_a5e54] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_a5e54/fast'
+make[1]: *** [cmTC_a5e54/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edf8b/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_edf8b.dir/build.make CMakeFiles/cmTC_edf8b.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edf8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strlcat -fPIE   -o CMakeFiles/cmTC_edf8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_edf8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edf8b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTC_edf8b.dir/CheckFunctionExists.c.o  -o cmTC_edf8b -rdynamic 
+CMakeFiles/cmTC_edf8b.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `strlcat' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_edf8b.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_edf8b'
+make[2]: *** [cmTC_edf8b] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_edf8b/fast'
+make[1]: *** [cmTC_edf8b/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_023b4/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_023b4.dir/build.make CMakeFiles/cmTC_023b4.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_023b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strlcpy -fPIE   -o CMakeFiles/cmTC_023b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_023b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_023b4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_023b4.dir/CheckFunctionExists.c.o  -o cmTC_023b4 -rdynamic 
+CMakeFiles/cmTC_023b4.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `strlcpy' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_023b4.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_023b4'
+make[2]: *** [cmTC_023b4] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_023b4/fast'
+make[1]: *** [cmTC_023b4/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18e59/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_18e59.dir/build.make CMakeFiles/cmTC_18e59.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18e59.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=arc4random_buf -fPIE   -o CMakeFiles/cmTC_18e59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18e59.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=arc4random_buf    CMakeFiles/cmTC_18e59.dir/CheckFunctionExists.c.o  -o cmTC_18e59 -rdynamic 
+CMakeFiles/cmTC_18e59.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `arc4random_buf' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_18e59.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_18e59'
+make[2]: *** [cmTC_18e59] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_18e59/fast'
+make[1]: *** [cmTC_18e59/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function arc4random_uniform exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bdb9/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0bdb9.dir/build.make CMakeFiles/cmTC_0bdb9.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bdb9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=arc4random_uniform -fPIE   -o CMakeFiles/cmTC_0bdb9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0bdb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bdb9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=arc4random_uniform    CMakeFiles/cmTC_0bdb9.dir/CheckFunctionExists.c.o  -o cmTC_0bdb9 -rdynamic 
+CMakeFiles/cmTC_0bdb9.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `arc4random_uniform' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0bdb9.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_0bdb9'
+make[2]: *** [cmTC_0bdb9] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_0bdb9/fast'
+make[1]: *** [cmTC_0bdb9/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1f25/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f1f25.dir/build.make CMakeFiles/cmTC_f1f25.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1f25.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=explicit_bzero -fPIE   -o CMakeFiles/cmTC_f1f25.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f1f25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1f25.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero    CMakeFiles/cmTC_f1f25.dir/CheckFunctionExists.c.o  -o cmTC_f1f25 -rdynamic 
+CMakeFiles/cmTC_f1f25.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `explicit_bzero' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f1f25.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_f1f25'
+make[2]: *** [cmTC_f1f25] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_f1f25/fast'
+make[1]: *** [cmTC_f1f25/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getentropy exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a8d3/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a8d3.dir/build.make CMakeFiles/cmTC_0a8d3.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a8d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getentropy -fPIE   -o CMakeFiles/cmTC_0a8d3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a8d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a8d3.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getentropy    CMakeFiles/cmTC_0a8d3.dir/CheckFunctionExists.c.o  -o cmTC_0a8d3 -rdynamic 
+CMakeFiles/cmTC_0a8d3.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `getentropy' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0a8d3.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_0a8d3'
+make[2]: *** [cmTC_0a8d3] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_0a8d3/fast'
+make[1]: *** [cmTC_0a8d3/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function timingsafe_bcmp exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f367c/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f367c.dir/build.make CMakeFiles/cmTC_f367c.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f367c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=timingsafe_bcmp -fPIE   -o CMakeFiles/cmTC_f367c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f367c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f367c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=timingsafe_bcmp    CMakeFiles/cmTC_f367c.dir/CheckFunctionExists.c.o  -o cmTC_f367c -rdynamic 
+CMakeFiles/cmTC_f367c.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `timingsafe_bcmp' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f367c.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_f367c'
+make[2]: *** [cmTC_f367c] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_f367c/fast'
+make[1]: *** [cmTC_f367c/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function timingsafe_memcmp exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2315/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b2315.dir/build.make CMakeFiles/cmTC_b2315.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2315.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=timingsafe_memcmp -fPIE   -o CMakeFiles/cmTC_b2315.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2315
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2315.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=timingsafe_memcmp    CMakeFiles/cmTC_b2315.dir/CheckFunctionExists.c.o  -o cmTC_b2315 -rdynamic 
+CMakeFiles/cmTC_b2315.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `timingsafe_memcmp' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b2315.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_b2315'
+make[2]: *** [cmTC_b2315] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_b2315/fast'
+make[1]: *** [cmTC_b2315/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtonum exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d161e/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d161e.dir/build.make CMakeFiles/cmTC_d161e.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d161e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strtonum -fPIE   -o CMakeFiles/cmTC_d161e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d161e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d161e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtonum    CMakeFiles/cmTC_d161e.dir/CheckFunctionExists.c.o  -o cmTC_d161e -rdynamic 
+CMakeFiles/cmTC_d161e.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `strtonum' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d161e.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_d161e'
+make[2]: *** [cmTC_d161e] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_d161e/fast'
+make[1]: *** [cmTC_d161e/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function b64_ntop exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ddbd/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7ddbd.dir/build.make CMakeFiles/cmTC_7ddbd.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ddbd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=b64_ntop -fPIE   -o CMakeFiles/cmTC_7ddbd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ddbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ddbd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=b64_ntop    CMakeFiles/cmTC_7ddbd.dir/CheckFunctionExists.c.o  -o cmTC_7ddbd -rdynamic 
+CMakeFiles/cmTC_7ddbd.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `b64_ntop' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7ddbd.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_7ddbd'
+make[2]: *** [cmTC_7ddbd] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_7ddbd/fast'
+make[1]: *** [cmTC_7ddbd/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function readpassphrase exists failed with the following output:
+Change Dir: /home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa154/fast"
+make[1]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fa154.dir/build.make CMakeFiles/cmTC_fa154.dir/build
+make[2]: se entra en el directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa154.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=readpassphrase -fPIE   -o CMakeFiles/cmTC_fa154.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fa154
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa154.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readpassphrase    CMakeFiles/cmTC_fa154.dir/CheckFunctionExists.c.o  -o cmTC_fa154 -rdynamic 
+CMakeFiles/cmTC_fa154.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `readpassphrase' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fa154.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_fa154'
+make[2]: *** [cmTC_fa154] Error 1
+make[2]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_fa154/fast'
+make[1]: *** [cmTC_fa154/fast] Error 2
+make[1]: se sale del directorio '/home/a/NAUDIT/pruebas/dependencies/netlib/build/CMakeFiles/CMakeTmp'
+
+

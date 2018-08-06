@@ -1,0 +1,1 @@
+/usr/bin/c++      -O3 -g -pipe -flto CMakeFiles/srv.dir/src/examples/srv.cpp.o  -o bin/srv -rdynamic lib/libnetlib.a -lpthread lib/libssl.a lib/libcrypto.a 

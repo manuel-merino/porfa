@@ -1,0 +1,1 @@
+/usr/bin/cc     -O3 -g -pipe -flto CMakeFiles/ocspcheck.dir/http.c.o CMakeFiles/ocspcheck.dir/ocspcheck.c.o  -o ../../../../../bin/ocspcheck -rdynamic ../../../../../lib/libtls.a ../../../../../lib/libtls.a ../../../../../lib/libssl.a ../../../../../lib/libcrypto.a -lrt 
